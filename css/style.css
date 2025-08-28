@@ -22,6 +22,8 @@ header img {
 
 .mv-area img {
     width: 100%;
+    height: 800px;
+    object-fit: cover;
 }
 
 /*-----  SECTION 共通-----*/
@@ -144,6 +146,7 @@ address,small {
     margin-bottom: 10px;
     color: #2f4858;
 }
+
 
 
 
