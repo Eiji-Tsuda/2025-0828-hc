@@ -1,10 +1,13 @@
 <!doctype html>
 <html lang="ja">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&family=Yuji+Syuku&display=swap" rel="stylesheet">
 
 <head>
     <meta charset="utf-8">
-    <title>最短5日でダイバーデビュー! - MdN DIVE</title>
-    <meta name="description" content="MdN DIVEは千代田区にあるマンツーマンダイビングスクールです。5/31までWeb限定キャンペーンを実施中!">
+    <title>寿司にするなら</title>
+    <meta name="description" content="家族みんなで楽しめる！笑顔あふれる街のお寿司屋さん">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,7 +15,7 @@
 <body>
     <header>
         <h1>
-            <img src="img/logo.png" alt="ロゴ：MdN DIVE">
+            <img src="img/logo.png" alt="ロゴ：寿司">
         </h1>
     </header>
 
@@ -24,40 +27,57 @@
 
         <section>
             <div class="section-inner">
-                <h2>[お知らせ]夏休み限定！お子様メニュー＆夏の旬ネタフェア開催中！</h2>
+                <h2>[お知らせ]<br>夏休み限定！お子様メニュー＆夏の旬ネタフェア開催中！</h2>
                 <p>夏休み期間中、ご家族皆様でお楽しみいただけるよう、特別なフェアを開催します！</p>
             </div>
         </section>
         <section>
             <div class="section-inner">
                 <h2>おすすめメニュー</h2>
-                <ol>
-                    <li>本鮪大とろ</li>
-                    <img src="img/ootoro.jpg">
-                    <div class="form-submit">
-                        <button name="submit" id="submit" type="reserve">今すぐ予約する</button>
+                <div class="menu">
+                    <div class="menu-name">
+                        <div class="neta">本鮪大とろ</div>
+
+                        <div class="neta">大切りサーモン</div>
+
+                        <div class="neta">ハマチ</div>
+
+                        <div class="neta">大粒いくら</div>
                     </div>
-                    <li>大切りサーモン</li>
-                    <img src="img/sa-mon.jpg">
-                    <div class="form-submit">
-                        <button name="submit" id="submit" type="reserve">今すぐ予約する</button>
+
+                    <div class="menu-img">
+                        <img src="img/ootoro.jpg">
+
+                        <img src="img/sa-mon.jpg">
+
+                        <img src="img/hamati.jpg">
+
+                        <img src="img/ikura.jpg">
                     </div>
-                    <li>ハマチ</li>
-                    <img src="img/hamati.jpg">
-                    <div class="form-submit">
-                        <button name="submit" id="submit" type="reserve">今すぐ予約する</button>
+
+                    <div class="menu-button">
+                        <div class="form-submit">
+                            <button name="submit" id="submit" type="reserve">予約する</button>
+                        </div>
+
+                        <div class="form-submit">
+                            <button name="submit" id="submit" type="reserve">予約する</button>
+                        </div>
+
+                        <div class="form-submit">
+                            <button name="submit" id="submit" type="reserve">予約する</button>
+                        </div>
+
+                        <div class="form-submit">
+                            <button name="submit" id="submit" type="reserve">予約する</button>
+                        </div>
                     </div>
-                    <li>大粒いくら</li>
-                    <img src="img/ikura.jpg">
-                    <div class="form-submit">
-                        <button name="submit" id="submit" type="reserve">今すぐ予約する</button>
-                    </div>
-                </ol>
+                </div>
             </div>
         </section>
         <section>
             <div class="section-inner">
-                <h2>予約フォーム</h2>
+                <h2>WEB予約</h2>
                 <form action="program.php" method="post">
                     <ol>
                         <dt><label for="user-name">氏名</label></dt>
@@ -66,10 +86,11 @@
                         <dt><label for="user-email">メールアドレス</label></dt>
                         <dd><input name="user-email" id="user-name" type="text"></dd>
 
-                        <dt>テーブル席を予約しますか？</dt>
+                        <dt>お席のご希望</dt>
                         <dd>
-                            <input type="radio" name="swim" value="はい" id="swim-yes"><label for="swim-yes">はい</label>
-                            <input type="radio" name="swim" value="いいえ" id="swim-no"><label for="swim-no">いいえ</label>
+                            <input type="radio" name="swim" value="はい" id="swim-yes"><label
+                                for="swim-yes">カウンター席</label>
+                            <input type="radio" name="swim" value="いいえ" id="swim-no"><label for="swim-no">テーブル席</label>
                         </dd>
                     </ol>
 
@@ -87,13 +108,16 @@
 
     <footer>
         <address>
-            〒101-0051<br>
-            東京都千代田区神田神保町1丁目105<br>
-            00-0000-0000<br>
-            株式会社MdN DIVE
+            〒123-4567<br>
+            東京都中央区銀座〇-〇-〇<br>
+            電話: 03-XXXX-XXXX<br><br>
+            営業時間<br>
+            昼の部 11:30 - 14:00 (L.O.13:30)<br>
+            夜の部 17:00 - 22:00 (L.O.21:30)<br><br>
+            定休日 : 毎週火曜日
         </address>
 
-        <small>&copy; MdN Corporation.</small>
+        <small>&copy; sushi. All Rights Reserved.</small>
     </footer>
 </body>
 
